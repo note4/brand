@@ -11,6 +11,10 @@ on:
       - '.github/workflows/sync_icons.yml'
   workflow_dispatch:
 
+# 解决 Node 24 警告（可选，建议加上）
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-and-sync:
     runs-on: ubuntu-latest
@@ -29,11 +33,15 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          python -m venv venv
+          source venv/bin/activate
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
       - name: Run Downloader
-        run: python update_favicons.py
+        run: |
+          source venv/bin/activate
+          python update_favicons.py
 
       - name: Commit and Push Changes
         run: |
