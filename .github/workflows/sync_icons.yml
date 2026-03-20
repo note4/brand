@@ -11,7 +11,6 @@ on:
       - '.github/workflows/sync_icons.yml'
   workflow_dispatch:
 
-# 解决 Node 24 警告（可选，建议加上）
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -31,22 +30,24 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
 
-      - name: Install Dependencies
+      - name: Install and Run
         run: |
+          # 1. 创建虚拟环境
           python -m venv venv
-          source venv/bin/activate
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-
-      - name: Run Downloader
-        run: |
-          source venv/bin/activate
-          python update_favicons.py
+          
+          # 2. 升级并安装依赖 (直接使用 venv 内部的 pip 路径)
+          ./venv/bin/python -m pip install --upgrade pip
+          ./venv/bin/python -m pip install -r requirements.txt
+          
+          # 3. 运行脚本 (直接使用 venv 内部的 python 路径)
+          ./venv/bin/python update_favicons.py
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 确保只添加图标目录，排除 venv 文件夹
           git add favicon/
           
           if git diff --cached --quiet; then
