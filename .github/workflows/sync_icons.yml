@@ -2,10 +2,13 @@ name: Sync Multi-Size Favicons
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 16 * * *'
   push:
     paths:
       - 'siteurl.txt'
+      - 'requirements.txt'
+      - 'update_favicons.py'
+      - '.github/workflows/sync_icons.yml'
   workflow_dispatch:
 
 jobs:
@@ -27,7 +30,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
 
       - name: Run Downloader
         run: python update_favicons.py
@@ -39,7 +42,7 @@ jobs:
           git add favicon/
           
           if git diff --cached --quiet; then
-            echo "没有图标更新，跳过 Commit"
+            echo "No changes"
           else
             git commit -m "chore: 自动同步网站图标 $(date +'%Y-%m-%d')"
             git push origin main
