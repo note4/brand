@@ -1,7 +1,7 @@
 title: Favicon Repository
 description: 自动同步的 Favicon 静态资源库
 baseurl: "" # 如果你是用 <username>.github.io 根目录，这里保持为空
-url: ""     # 你的域名
+url: "https://brand.yijile.com"     # 你的域名
 
 # 排除不需要的文件
 exclude:
