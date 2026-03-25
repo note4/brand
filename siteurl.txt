@@ -48,6 +48,7 @@ https://github.com/
 https://gitlab.com/
 https://grok.com/
 https://guanjia.qq.com/
+https://hao.360.com/
 https://ima.qq.com/
 https://js.design/
 https://life.httpcn.com/
@@ -79,6 +80,7 @@ https://weread.qq.com/
 https://www.12306.cn/
 https://www.163.com/
 https://www.1688.com/
+https://www.360kuai.com/
 https://www.aliexpress.com/
 https://www.alipay.com/
 https://www.aliyun.com/
@@ -128,6 +130,7 @@ https://www.thepaper.cn/
 https://www.theweathernetwork.com/
 https://www.tmall.com/
 https://www.toutiao.com/
+https://www.w3schools.com/
 https://www.wanfangdata.com.cn/
 https://www.weather.com.cn/
 https://www.xiaohongshu.com/
