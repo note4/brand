@@ -145,11 +145,13 @@ layout:
     <div class="icon-grid" id="iconGrid">
         {% for file in site.static_files %}
             {% if file.path contains '/favicon/64/' %}
-                {% assign domain = file.name | replace: '.png', '' %}
-                <div class="icon-card" onclick="showDetail('{{ domain }}', '{{ site.baseurl }}{{ file.path }}')" data-domain="{{ domain }}">
-                    <img src="{{ site.baseurl }}{{ file.path }}" alt="icon">
-                    <span class="name">{{ domain }}</span>
-                </div>
+                {% unless file.path contains '.size' %}
+                    {% assign domain = file.name | replace: '.png', '' %}
+                    <div class="icon-card" onclick="showDetail('{{ domain }}', '{{ site.baseurl }}{{ file.path }}')" data-domain="{{ domain }}">
+                        <img src="{{ site.baseurl }}{{ file.path }}" alt="icon">
+                        <span class="name">{{ domain }}</span>
+                    </div>
+                {% endunless %}
             {% endif %}
         {% endfor %}
     </div>
