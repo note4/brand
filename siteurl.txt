@@ -26,6 +26,7 @@ https://gitlab.com/
 https://grok.com/
 https://guanjia.qq.com/
 https://hao.360.com/
+https://html5.moji.com/
 https://ima.qq.com/
 https://jp.tao.co/
 https://js.design/
@@ -51,6 +52,7 @@ https://search.google.com/
 https://search.yahoo.com/
 https://shimo.im/
 https://tcb.cloud.tencent.com/
+https://tianqi.qq.com/
 https://tieba.baidu.com/
 https://to-do.live.com/
 https://tv.cctv.com/
@@ -59,6 +61,7 @@ https://v.163.com/
 https://v.qq.com/
 https://video.sina.com.cn/
 https://wannianli.xuenb.com/
+https://weather.cctv.com/
 https://weather.com/
 https://web.shanbay.com/
 https://weibo.com/
@@ -74,6 +77,7 @@ https://www.alimama.com/
 https://www.alipay.com/
 https://www.aliyun.com/
 https://www.aliyundrive.com/
+https://www.amazon.com/
 https://www.baidu.com/
 https://www.bilibili.com/
 https://www.bing.com/
@@ -123,6 +127,7 @@ https://www.mgtv.com/
 https://www.miercn.com/
 https://www.msn.cn/
 https://www.nlc.cn/
+https://www.nmc.cn/
 https://www.notion.so/
 https://www.nowcoder.com/
 https://www.qcc.com/
