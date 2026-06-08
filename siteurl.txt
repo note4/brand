@@ -5,6 +5,7 @@ https://analytics.google.com/
 https://app.cloudcannon.com/
 https://book.qq.com/
 https://cet.neea.edu.cn/
+https://chat.antafu.com/
 https://chat.deepseek.com/
 https://chat.qwen.ai/
 https://chatglm.cn/
