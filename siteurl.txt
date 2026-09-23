@@ -19,6 +19,9 @@ https://docs.cloudbase.net/
 https://duckduckgo.com/
 https://erya.mooc.chaoxing.com/
 https://fanqienovel.com/
+https://fanyi.baidu.com
+https://fanyi.sogou.com
+https://fanyi.youdao.com
 https://fate.windada.com/
 https://fenbi.com/
 https://gemini.google.com/
@@ -56,6 +59,7 @@ https://tcb.cloud.tencent.com/
 https://tianqi.qq.com/
 https://tieba.baidu.com/
 https://to-do.live.com/
+https://translate.google.com
 https://tv.cctv.com/
 https://tv.sohu.com/
 https://v.163.com/
@@ -81,6 +85,7 @@ https://www.aliyundrive.com/
 https://www.amazon.com/
 https://www.baidu.com/
 https://www.bilibili.com/
+https://www.bing.com
 https://www.bing.com/
 https://www.bjnews.com.cn/
 https://www.cankaoxiaoxi.com/
@@ -93,6 +98,7 @@ https://www.cnr.cn/
 https://www.cntv.cn/
 https://www.ctrip.com/
 https://www.damai.cn/
+https://www.deepl.com
 https://www.dingtalk.com/
 https://www.douban.com/
 https://www.doubao.com/
